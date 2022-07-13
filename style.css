@@ -1,0 +1,118 @@
+.main{
+    display: flex;
+    background-color:rgb(247, 245, 244);
+}
+
+.carousel{
+    margin-top: 3em;
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-left: 2em;
+    padding-bottom: 2em;
+}
+
+.Responsive{
+    margin-top: 3em;
+    flex: 1;
+    margin-left: 18em;
+}
+
+footer, footer > div{
+    display: flex;
+}
+
+footer{
+    height: 30em;
+}
+
+.brazil,.mexico,.usa{
+    flex: 1;
+    flex-direction: column;
+}
+
+.brazil{
+    margin-left: 10em;
+}
+
+#width{
+    width: 15em;
+    height: 10em;
+}
+
+#p{
+    width: 17em;
+}
+
+
+
+/* Media Qerries */
+@media screen and (max-width:600px) {
+    main > div{
+        height: 100%;
+        flex-direction: column;
+        flex: 1;
+    }
+    main{
+        height: 50em;
+    }
+    .Responsive{
+        margin:25px 10px 0 20px;
+        width: 90%;
+        height: 30em;
+        font-size: x-large;
+        
+    }
+    .carousel{
+        width: 90%;
+        margin: 20px;
+        margin-top: 40px;
+    }
+    footer{
+        height: 70em;
+        flex-direction: column;
+    }
+
+    footer > div{
+        height: 100%;
+        font-size: x-large;
+        margin: 20px;
+        width: 90%;
+    }
+    .brazil{
+        margin-left: 20px;
+    }
+    h2,h1{
+        font-size:40px;
+    }
+    #p{
+        width: 100%;
+    }
+    .footer-stuff{
+            background-color:rgba(0, 0, 0, 0.75);
+            color: #f5deb3;
+            padding: 20px;
+            position: relative;
+            top: 800px;
+        
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .footer-stuff{
+        background-color:rgba(0, 0, 0, 0.75);
+        color: #f5deb3;
+        padding: 20px;
+        position: relative;
+        top: 200px;
+    }
+    
+}
+h3{
+    font-size:large;
+}
+a{
+    color: #f5deb3;
+}
